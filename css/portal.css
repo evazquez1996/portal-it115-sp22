@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 html {
-    background-color: lightgray;
+    background-color: rgb(236, 188, 188);
     font-family: 'Quicksand', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
@@ -17,12 +17,18 @@ html {
 h1 {
     font-weight: normal;
     margin: auto;
-    background: #fff;
+    background: rgb(236, 188, 188);
     line-height: 2.5em;
 }
 
+h1.logo {
+    font-family: 'Quicksand', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
 main.wrapper {
-    background-color: white;
+    background-color: rgb(247, 204, 227);
     overflow: auto;
 }
 
@@ -53,22 +59,22 @@ footer {
     padding: 1em;
 }
 
-/* Responsive rules */
+/* Responsive rules
 
 /* DESKTOP */
 @media all and (min-width:1200px) {
     main.wrapper {
-        width: 80%;
+        width: 81%;
         margin: auto;
     }
     
     h1 {
-        width: 79%;
+        width: 80%;
         padding-left: 1%;
     }
     
     picture.profile img {
-        width: 50%;
+        width: 15%;
         float: left;
         margin-right: 2em;
     }
@@ -110,4 +116,4 @@ footer {
         width: 100%;
     }
     
-}
+} */
